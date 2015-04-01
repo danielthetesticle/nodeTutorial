@@ -16,6 +16,8 @@ app.post('/api/test', function(req, res) {
 	res.status(200).send({status: "Recieved, bruh"});
 });
 */
+
+
 app.get('/', function(req, res) {
 	res.sendfile('./index.html');
 });
